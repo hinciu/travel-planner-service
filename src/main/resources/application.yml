@@ -1,0 +1,9 @@
+connection:
+  params:
+    openweather:
+      url: https://api.openweathermap.org/data/2.5/weather?q={city}&appid=9daa2daa029ec70bd119f370dc40b088&units=metric
+forecast_cache_time: 60
+
+cors:
+  filter:
+    allowedOrigins: http://localhost:3000
